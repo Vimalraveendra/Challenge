@@ -1,4 +1,4 @@
-import React from 'react'
+import "./HotelCollections.css"
 
 const HotelCollections=({hotels,adults,children})=>{
     return(
