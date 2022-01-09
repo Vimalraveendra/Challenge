@@ -1,4 +1,4 @@
-
+import "./Hotel.css"
     
 
 const Hotel = ({id,name,address1,address2,starRating,images,adults,children})=>{

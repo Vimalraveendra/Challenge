@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap");
+
+.hotel-container {
+  background-color: aliceblue;
+  margin: 0px 10px;
+  margin-bottom: 10px;
+  box-shadow: 1px 3px 8px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 60vw;
+  min-width: 150px;
+}
+.top-heading {
+  border-bottom: 2px solid black;
+}
+.hotel-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  flex-wrap: wrap;
+}
+.left-heading {
+  display: flex;
+}
+.center-heading {
+  margin-left: 15px;
+  text-align: start;
+}
+.center-heading h3,
+h4,
+h5 {
+  margin: 0px;
+  margin-bottom: 5px;
+  font-family: "Roboto";
+  font-size: 0.9rem;
+}
+.center-heading h3 {
+  font-size: 1rem;
+}
+img {
+  max-width: 210px;
+  min-width: 210px;
+  height: 120px;
+}
+.style-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100px !important;
+}
